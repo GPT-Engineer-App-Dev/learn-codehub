@@ -1,5 +1,6 @@
 import { Box, Button, Container, Flex, Heading, HStack, IconButton, Image, Link, Stack, Text, VStack } from "@chakra-ui/react";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import CodeEditor from "../components/CodeEditor";
 
 const Index = () => {
   return (
@@ -21,6 +22,7 @@ const Index = () => {
           <Heading size="2xl">Learn to Code, Build Projects, and Get Hired</Heading>
           <Text fontSize="lg">Join our community and start your coding journey today.</Text>
           <Button colorScheme="blue" size="lg">Get Started</Button>
+          <CodeEditor />
         </VStack>
       </Container>
 
